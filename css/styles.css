@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto",
+    font-family:"Raleway","Roboto"
     sans-serif;
     color: #434455;
     background-color: #fff;
@@ -23,10 +23,11 @@ ul  {
 
   }
 
-  .logo {
+  .header-logo {
+    font-family:"Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
@@ -120,6 +121,10 @@ ul  {
     background: #404bbf;
   }
 
+  .hero-title-btn:focus {
+    color:#404bbf;
+  }
+
  /* ------------------BENEFITS---------------------- */
 
   .benefits {
@@ -131,7 +136,7 @@ ul  {
   }
 
   .benefits-list {
-
+    
   }
 
   .benefits-item {
@@ -162,14 +167,15 @@ ul  {
   .team-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
   }
 
   .team-list {
-
+    background-color: #fff;
   }
 
   .team-list-item {
@@ -201,22 +207,23 @@ ul  {
   
    /* ------------------PORTFOLIO---------------------- */
 
-  .portfolio {
+  #portfolio {
 
   }
 
 .portfolio-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 
 }
 
 .portfolio-list {
-
+   
 }
 
 .portfolio-item {
@@ -225,7 +232,6 @@ ul  {
 
 .portfolio-item-img {
     width: 360px;
-    height: 300px;
 }
 
 .portfolio-item-subtitle {
@@ -250,9 +256,10 @@ ul  {
 }
 
 .footer-logo {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
