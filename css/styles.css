@@ -1,6 +1,5 @@
 body {
-    font-family:"Roboto"
-    sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #fff;
 }
@@ -16,7 +15,7 @@ ul  {
   /* -------------HEADER-------------- */
 
   .page-header {
-    background: #fff;
+    background-color: #fff;
   }
 
   .header-nav {
@@ -60,7 +59,7 @@ ul  {
     color: #404bbf;
   }
 
-  #contacts {
+  .contacts {
     font-style: normal;
   }
 
@@ -104,6 +103,7 @@ ul  {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #fff;
+    text-align: center;
   }
 
   .hero-title-btn {
@@ -113,16 +113,16 @@ ul  {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-    background: #4d5ae5;
+    background-color: #4d5ae5;
     cursor: pointer;
   }
  
   .hero-title-btn:hover {
-    background: #404bbf;
+    background-color: #404bbf;
   }
 
   .hero-title-btn:focus {
-    color:#404bbf;
+    background-color:#404bbf;
   }
 
  /* ------------------BENEFITS---------------------- */
@@ -161,7 +161,7 @@ ul  {
    /* ------------------TEAM---------------------- */
 
   .page-team {
-    background: #f4f4fd;
+    background-color: #f4f4fd;
   }
 
   .team-title {
@@ -175,16 +175,14 @@ ul  {
   }
 
   .team-list {
-    background-color: #fffff;
+    
   }
 
   .team-list-item {
-
+    background-color: #fff;
   }
 
   .team-img {
-    width: 264px;
-    height: 260px;
 
   }
 
@@ -234,11 +232,11 @@ ul  {
 }
 
 .portfolio-item-subtitle {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .portfolio-item-text {
